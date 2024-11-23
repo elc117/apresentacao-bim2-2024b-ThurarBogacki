@@ -1,14 +1,13 @@
-public class ColorPoint extends Point {
-
+public class ColorPoint extends Point{
     private final String color;
 
-    public ColorPoint(int x, int y, String color) {
+    public ColorPoint(int x, int y, String color){
         super(x, y);
         this.color = color;
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         return super.toString() + " color: " + color;
     }
 }
